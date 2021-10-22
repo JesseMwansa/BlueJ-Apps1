@@ -1,3 +1,31 @@
-Student derek = new Student("Derek", 12345678);
-Course Computing = new Course("COMP01", "BSc Computing");
-derek.enrol(Computing);
+Course computing = new Course("BT1CTG1", "BSc Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+Student student1 = new Student("Jesse Mwansa", 22140600);
+Course computing = new Course("BT1CTG1", "BSc Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+student1.print();
+ Student ID: 22140600 Name: Jesse Mwansa
+Course Computer = new Course("BT1CTG1", "BSc Computing");
+Student student1 = new Student("Jesse Mwansa", 22140600);
+student1.print();
+ Student ID: 22140600 Name: Jesse Mwansa
+Computer.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+student1.enrol(Computer);
